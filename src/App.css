@@ -10,13 +10,13 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  background: royalblue;
+
 }
 
 .titleHeader{
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   height: 300px;
   width: 100%;
   border-bottom-color: rgb(192,192,192);
@@ -32,36 +32,38 @@ body{
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
-  background: skyblue;
+
 }
 
 .theTitle{
   height: 50%;
-  width: 50%;
-  align-self: center;
+
+  align-self: baseline;
 }
 
 .tabs{
   display: flex;
   justify-content: space-evenly;
   height: 30px;
-  background: slateblue;
   width: 100%;
   border-color: rgb(0, 0, 0);
 }
 
 .articleCard{
   width: 90%;
-  background: rgb(255, 250, 250);
+  background: rgb(180, 178, 178);
   display: flex;
   justify-content: space-evenly;
   padding-left: 10px;
   padding-right: 10px;
   color: rgb(105, 105, 105);
+  border-bottom-color: black;
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .articleDate{
-  width: 30%;
+  width: 20%;
 }
 
 .articleDate h3{
@@ -71,8 +73,8 @@ body{
 .articleContent{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-evenly;
+  width: 80%;
 }
 
 .story h2{
@@ -81,6 +83,7 @@ body{
 
 .author h3{
   color: rgb(105, 105, 105);
+  font-size: 1em;
 }
 
 a {
